@@ -1,10 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import CssBaseline from "@material-ui/core/CssBaseline";
+
+import Button from "@material-ui/core/Button";
+
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      <CssBaseline />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,6 +24,11 @@ function App() {
           Learn React
         </a>
       </header>
+      <div>
+        <Button variant="contained" color="primary">
+          Hello World
+        </Button>
+      </div>
     </div>
   );
 }
