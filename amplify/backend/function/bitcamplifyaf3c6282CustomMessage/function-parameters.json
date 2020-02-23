@@ -1,0 +1,14 @@
+{
+    "trigger": true,
+    "modules": [
+        "verification-link"
+    ],
+    "parentResource": "bitcamplifyaf3c6282",
+    "functionName": "bitcamplifyaf3c6282CustomMessage",
+    "parentStack": "auth",
+    "triggerEnvs": "[{\"key\":\"RESOURCENAME\",\"value\":\"resourceName\"}]",
+    "triggerTemplate": "CustomMessage.json.ejs",
+    "roleName": "bitcamplifyaf3c6282CustomMessage",
+    "skipEdit": true,
+    "resourceName": "bitcamplifyaf3c6282CustomMessage"
+}

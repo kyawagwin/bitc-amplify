@@ -1,15 +1,37 @@
 {
-    "dev": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-bitc-amplify-dev-194651-authRole",
-            "UnauthRoleArn": "arn:aws:iam::505959988704:role/amplify-bitc-amplify-dev-194651-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::505959988704:role/amplify-bitc-amplify-dev-194651-authRole",
-            "Region": "ap-southeast-1",
-            "DeploymentBucketName": "amplify-bitc-amplify-dev-194651-deployment",
-            "UnauthRoleName": "amplify-bitc-amplify-dev-194651-unauthRole",
-            "StackName": "amplify-bitc-amplify-dev-194651",
-            "StackId": "arn:aws:cloudformation:ap-southeast-1:505959988704:stack/amplify-bitc-amplify-dev-194651/3044a4e0-5632-11ea-9b55-020de04cec9a",
-            "AmplifyAppId": "d2dji3nxdocfgo"
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bitc-amplify-dev-194651-authRole",
+      "UnauthRoleArn": "arn:aws:iam::505959988704:role/amplify-bitc-amplify-dev-194651-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::505959988704:role/amplify-bitc-amplify-dev-194651-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-bitc-amplify-dev-194651-deployment",
+      "UnauthRoleName": "amplify-bitc-amplify-dev-194651-unauthRole",
+      "StackName": "amplify-bitc-amplify-dev-194651",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:505959988704:stack/amplify-bitc-amplify-dev-194651/3044a4e0-5632-11ea-9b55-020de04cec9a",
+      "AmplifyAppId": "d2dji3nxdocfgo"
+    },
+    "categories": {
+      "function": {
+        "bitcamplifyaf3c6282DefineAuthChallenge": {},
+        "bitcamplifyaf3c6282CreateAuthChallenge": {},
+        "bitcamplifyaf3c6282VerifyAuthChallengeResponse": {
+          "RECAPTCHASECRET": "6LeNs9oUAAAAAI9SwKNZwf428mTA9pBnqrocLYQn"
+        },
+        "bitcamplifyaf3c6282CustomMessage": {
+          "REDIRECTURL": "http://localhost:3000/",
+          "EMAILSUBJECT": "Beauty In The Code - Confirm your register",
+          "EMAILMESSAGE": "Please confirm this was you by clicking the button below to confirm:"
+        },
+        "bitcamplifyaf3c6282PostConfirmation": {
+          "GROUP": "User"
         }
+      },
+      "auth": {
+        "bitcamplifyaf3c6282": {
+          "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"894113187686494\",\"client_secret\":\"b31b20ec66a5994b21f3a4bb9957efab\"},{\"ProviderName\":\"Google\",\"client_id\":\"846278928593-14te8f8adq66fjueh4q7p1nss1mf2arj.apps.googleusercontent.com\",\"client_secret\":\"kjZx2ktj0RkQMos0UCoQ7y1B\"}]"
+        }
+      }
     }
+  }
 }

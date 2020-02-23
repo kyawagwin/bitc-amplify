@@ -1,0 +1,14 @@
+{
+    "trigger": true,
+    "modules": [
+        "add-to-group"
+    ],
+    "parentResource": "bitcamplifyaf3c6282",
+    "functionName": "bitcamplifyaf3c6282PostConfirmation",
+    "parentStack": "auth",
+    "triggerEnvs": "[]",
+    "triggerTemplate": "PostConfirmation.json.ejs",
+    "roleName": "bitcamplifyaf3c6282PostConfirmation",
+    "skipEdit": true,
+    "resourceName": "bitcamplifyaf3c6282PostConfirmation"
+}

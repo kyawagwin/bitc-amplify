@@ -1,0 +1,14 @@
+{
+    "trigger": true,
+    "modules": [
+        "captcha-define-challenge"
+    ],
+    "parentResource": "bitcamplifyaf3c6282",
+    "functionName": "bitcamplifyaf3c6282DefineAuthChallenge",
+    "parentStack": "auth",
+    "triggerEnvs": "[]",
+    "triggerTemplate": "DefineAuthChallenge.json.ejs",
+    "roleName": "bitcamplifyaf3c6282DefineAuthChallenge",
+    "skipEdit": true,
+    "resourceName": "bitcamplifyaf3c6282DefineAuthChallenge"
+}

@@ -1,0 +1,14 @@
+{
+    "trigger": true,
+    "modules": [
+        "captcha-verify"
+    ],
+    "parentResource": "bitcamplifyaf3c6282",
+    "functionName": "bitcamplifyaf3c6282VerifyAuthChallengeResponse",
+    "parentStack": "auth",
+    "triggerEnvs": "[]",
+    "triggerTemplate": "VerifyAuthChallengeResponse.json.ejs",
+    "roleName": "bitcamplifyaf3c6282VerifyAuthChallengeResponse",
+    "skipEdit": true,
+    "resourceName": "bitcamplifyaf3c6282VerifyAuthChallengeResponse"
+}
